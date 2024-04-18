@@ -1,6 +1,6 @@
 /*
-Author: Maria Cruz
-Date: Current Date
+Author: Molly Rampe
+Date: April 18th,2024
 File Name: styles.css
 */
 
@@ -58,9 +58,40 @@ main a {
 }
 
 /* Orange */
+.orange-hex {
+    background-color: #ff7f00; /* Hexadecimal color value */
+}
+.orange-rgb {
+    background-color: rgb(255, 127, 0); /* RGB color value */
+}
 
+.orange-hsl {
+    background-color: hsl(30, 100%, 50%); /* HSL color value */
+}
 
 /* Purple */
+.purple-hex {
+    background-color: #800080; /* Hexadecimal color value */
+}
+
+.purple-rgb {
+    background-color: rgb(128, 0, 128); /* RGB color value */
+}
+
+.purple-hsl {
+    background-color: hsl(300, 100%, 25%); /* HSL color value */
+}
 
 
 /* Green */
+.green-hex {
+    background-color: #008000; /* Hexadecimal color value */
+}
+
+.green-rgb {
+    background-color: rgb(0, 128, 0); /* RGB color value */
+}
+
+.green-hsl {
+    background-color: hsl(120, 100%, 25%); /* HSL color value */
+}
