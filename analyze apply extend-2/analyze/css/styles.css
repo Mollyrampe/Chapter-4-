@@ -12,7 +12,7 @@ body, header, nav, main, footer, h1, h2, ul, li {
 }
 
 #css1, #css2, #css3 {
-    width: 40%;
+    width: 31%;
     float: left;
     padding: 0 1%;
 }footer {
@@ -30,9 +30,10 @@ body, header, nav, main, footer, h1, h2, ul, li {
     font-family: Geneva, Arial, sans-serif;
     /* Style rules for header */
 /* Header */
+}
 header {
     text-align: center;
-}
+
 } header h1 {
     font-size: 3em;
     font-family: Georgia, Times, serif;
@@ -42,10 +43,20 @@ header {
 /* Nav */
 } nav {
     background-color: #47476b;
-} nav ul { margin: 0;} nav li {
-    display: block;
-    font-size: 1.5em; font-family: Verdana, Arial, sans-serif; font-weight: bold;
-} nav li a { display: block; color: #e3eaf8; padding: 0.5em 2em; }
+}
+ nav ul {
+     margin: 0;
+     text-align: center;
+    }
+     nav li {
+    display: inline-block;
+    font-size: 1.5em; font-family: Verdana, Arial, sans-serif; 
+    font-weight: bold;
+} nav li a { 
+    display: block; 
+    color: #e3eaf8; 
+    padding: 0.5em 2em; 
+}
 
 /* Style rules for main */
 /* Main */
